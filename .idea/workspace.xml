@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fca6aca-4417-4908-8977-943f58a84e48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test_api_bonds_watch_list_tickers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api_currencies_watch_list_tickers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api_futures_watch_list_tickers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api_indexes_watch_list_tickers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api_shares_watch_list_tickers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_shares_watch_list_tickers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/api_list_tickers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api_bonds_filter_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_bonds_filter_list_tickers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api_bonds_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_bonds_watch_list_tickers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api_currencies_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_currencies_watch_list_tickers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api_futures_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_futures_watch_list_tickers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api_indexes_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_indexes_watch_list_tickers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api_shares_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_shares_watch_list_tickers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +55,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Repository/Oid85.FinMarket.EndToEndTests",
+    "last_opened_file_path": "C:/Repository/Oid85.FinMarket.EndToEndTests/modules",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repository\Oid85.FinMarket.EndToEndTests\modules" />
       <recent name="C:\Repository\Oid85.FinMarket.EndToEndTests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
