@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fca6aca-4417-4908-8977-943f58a84e48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test_api_bonds_watch_list_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_api_currencies_watch_list_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_api_futures_watch_list_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_api_indexes_watch_list_tickers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_api_shares_watch_list_tickers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_shares_watch_list_tickers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +43,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers.executor": "Run",
+    "Python tests.Python tests for api_shares_watch_list_tickers.test_watchlist.executor": "Run",
+    "Python tests.Python tests for test_api_shares_watch_list_tickers.test_api_shares_watch_list_tickers.executor": "Run",
+    "Python tests.Python tests for tests.executor": "Run",
+    "Python tests.Python tests in Oid85.FinMarket.EndToEndTests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Repository/Oid85.FinMarket.EndToEndTests",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repository\Oid85.FinMarket.EndToEndTests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Repository\Oid85.FinMarket.EndToEndTests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests in Oid85.FinMarket.EndToEndTests">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Oid85.FinMarket.EndToEndTests" />
       <option name="ENV_FILES" value="" />
@@ -75,8 +91,72 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Oid85.FinMarket.EndToEndTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_api_shares_watch_list_tickers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Oid85.FinMarket.EndToEndTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_shares_watch_list_tickers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_api_shares_watch_list_tickers.test_api_shares_watch_list_tickers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Oid85.FinMarket.EndToEndTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_shares_watch_list_tickers.test_api_shares_watch_list_tickers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in Oid85.FinMarket.EndToEndTests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Oid85.FinMarket.EndToEndTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in Oid85.FinMarket.EndToEndTests" />
+        <item itemvalue="Python tests.Python tests for test_api_shares_watch_list_tickers.test_api_shares_watch_list_tickers" />
+        <item itemvalue="Python tests.Python tests for test_api_shares_watch_list_tickers" />
+        <item itemvalue="Python tests.Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
