@@ -1,5 +1,5 @@
 import config
-from modules.api_tests import api_list_tickers, api_report_datarange_tickerlist, api_report_tickerlist, api_diagram_close_prices, api_diagram_multiplicators
+from modules.api_tests import api_list_tickers, api_report_datarange_tickerlist, api_report_tickerlist, api_diagram_simple, api_diagram_bubble
 
 
 def test_api_shares_watch_list_tickers():
@@ -71,12 +71,12 @@ def test_api_shares_report_fear_greed_index():
 
 
 def test_api_shares_diagram_daily_close_prices():
-    api_diagram_close_prices(f'{config.api_url}/api/shares/diagram/daily-close-prices', 'shares/watchlist')
+    api_diagram_simple(f'{config.api_url}/api/shares/diagram/daily-close-prices', 'shares/watchlist')
 
 
 def test_api_shares_diagram_five_minutes_close_prices():
-    api_diagram_close_prices(f'{config.api_url}/api/shares/diagram/five-minutes-close-prices', 'shares/watchlist')
+    api_diagram_simple(f'{config.api_url}/api/shares/diagram/five-minutes-close-prices', 'shares/watchlist')
 
 
 def test_api_shares_diagram_multiplicators_mcap_pe_netdebtebitda():
-    api_diagram_multiplicators(f'{config.api_url}/api/shares/report/multiplicators-mcap-pe-netdebtebitda', 'shares/watchlist')
+    api_diagram_bubble(f'{config.api_url}/api/shares/report/multiplicators-mcap-pe-netdebtebitda', 'shares/watchlist')

@@ -63,7 +63,7 @@ def api_report_tickerlist(url, tickerList):
     assert len(data) > 0
 
 
-def api_diagram_close_prices(url, tickerList):
+def api_diagram_simple(url, tickerList):
     # arrange
     toDate = datetime.now()
     fromDate = toDate - timedelta(days=7)
@@ -88,7 +88,7 @@ def api_diagram_close_prices(url, tickerList):
     assert len(data) > 0
 
 
-def api_diagram_multiplicators(url, tickerList):
+def api_diagram_bubble(url, tickerList):
     # arrange
     body = {
         "tickerList": tickerList
