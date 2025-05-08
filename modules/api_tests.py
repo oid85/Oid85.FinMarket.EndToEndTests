@@ -26,7 +26,7 @@ def api_report(url, tickerList):
     }
 
     # act
-    response = requests.post(url, body)
+    response = requests.post(url, json=body)
     response_json = response.json()
     result = response_json["result"]
 
