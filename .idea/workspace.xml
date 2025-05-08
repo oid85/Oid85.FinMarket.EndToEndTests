@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1fca6aca-4417-4908-8977-943f58a84e48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/api_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/api_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_bonds_filter_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_bonds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_bonds_watch_list_tickers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_currencies_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_currencies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_futures_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_futures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_indexes_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_indexes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_shares_watch_list_tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_shares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/api_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/api_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api_shares.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_shares.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers.executor": "Run",
-    "Python tests.Python tests for api_shares_watch_list_tickers.test_watchlist.executor": "Run",
-    "Python tests.Python tests for test_api_shares.test_api_shares_report_aggregated_analyse.executor": "Debug",
-    "Python tests.Python tests for test_api_shares_watch_list_tickers.test_api_shares_watch_list_tickers.executor": "Run",
-    "Python tests.Python tests for tests.executor": "Run",
-    "Python tests.Python tests in Oid85.FinMarket.EndToEndTests.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Repository/Oid85.FinMarket.EndToEndTests/modules",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for api_shares_watch_list_tickers.test_watchlist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_shares.test_api_shares_report_aggregated_analyse.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_api_shares_watch_list_tickers.test_api_shares_watch_list_tickers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Oid85.FinMarket.EndToEndTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repository/Oid85.FinMarket.EndToEndTests/modules&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Repository\Oid85.FinMarket.EndToEndTests\modules" />
@@ -151,7 +146,6 @@
         <item itemvalue="Python tests.Python tests in Oid85.FinMarket.EndToEndTests" />
         <item itemvalue="Python tests.Python tests for test_api_shares.test_api_shares_report_aggregated_analyse" />
         <item itemvalue="Python tests.Python tests for test_api_shares.test_api_shares_watch_list_tickers" />
-        <item itemvalue="Python tests.Python tests for test_api_shares_watch_list_tickers" />
         <item itemvalue="Python tests.Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers" />
       </list>
     </recent_temporary>
