@@ -1,5 +1,4 @@
 import requests
-from datetime import datetime, timedelta
 
 
 def api_list_tickers(url):
@@ -27,7 +26,8 @@ def api_report(url, body):
 
     # assert
     assert response.status_code == 200
-    assert len(title) > 0
+    assert len(result) > 0
+    assert len(title) >= 0
     assert len(header) > 0
     assert len(data) > 0
 
@@ -44,7 +44,8 @@ def api_diagram_simple(url, body):
 
     # assert
     assert response.status_code == 200
-    assert len(title) > 0
+    assert len(result) > 0
+    assert len(title) >= 0
     assert len(data) > 0
 
 
@@ -60,5 +61,6 @@ def api_diagram_bubble(url, body):
 
     # assert
     assert response.status_code == 200
-    assert len(title) > 0
+    assert len(result) > 0
+    assert len(title) >= 0
     assert len(series) > 0

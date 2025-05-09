@@ -89,8 +89,8 @@ def test_api_shares_report_asset_report_events():
 
 
 def test_api_shares_report_fear_greed_index():
-    api_report(f'{config.api_url}/api/shares/diagram/fear-greed-index',
-        { "tickerList": 'shares/watchlist' })
+    api_report(f'{config.api_url}/api/shares/report/fear-greed-index',
+        { "from": fromDate, "to": toDate })
 
 
 def test_api_shares_diagram_daily_close_prices():

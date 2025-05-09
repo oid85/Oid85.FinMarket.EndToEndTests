@@ -7,10 +7,6 @@
     <list default="true" id="1fca6aca-4417-4908-8977-943f58a84e48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/api_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/api_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_bonds.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_bonds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_currencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_currencies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_futures.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_futures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_api_indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_indexes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_api_shares.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api_shares.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +44,8 @@
     "Python tests.Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers.executor": "Run",
     "Python tests.Python tests for api_shares_watch_list_tickers.test_watchlist.executor": "Run",
     "Python tests.Python tests for test_api_shares.test_api_shares_report_aggregated_analyse.executor": "Debug",
+    "Python tests.Python tests for test_api_shares.test_api_shares_report_dividend_analyse.executor": "Debug",
+    "Python tests.Python tests for test_api_shares.test_api_shares_report_fear_greed_index.executor": "Run",
     "Python tests.Python tests for test_api_shares.test_api_shares_watch_list_tickers.executor": "Run",
     "Python tests.Python tests for test_api_shares_watch_list_tickers.test_api_shares_watch_list_tickers.executor": "Run",
     "Python tests.Python tests for tests.executor": "Run",
@@ -71,36 +69,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in Oid85.FinMarket.EndToEndTests">
-    <configuration name="Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Oid85.FinMarket.EndToEndTests" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_api_shares" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Oid85.FinMarket.EndToEndTests" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_shares&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_api_shares.test_api_shares_report_aggregated_analyse" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Oid85.FinMarket.EndToEndTests" />
       <option name="ENV_FILES" value="" />
@@ -113,6 +81,36 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_api_shares.test_api_shares_report_aggregated_analyse&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_api_shares.test_api_shares_report_dividend_analyse" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Oid85.FinMarket.EndToEndTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_shares.test_api_shares_report_dividend_analyse&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_api_shares.test_api_shares_report_fear_greed_index" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Oid85.FinMarket.EndToEndTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_shares.test_api_shares_report_fear_greed_index&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -149,9 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in Oid85.FinMarket.EndToEndTests" />
+        <item itemvalue="Python tests.Python tests for test_api_shares.test_api_shares_report_fear_greed_index" />
+        <item itemvalue="Python tests.Python tests for test_api_shares.test_api_shares_report_dividend_analyse" />
         <item itemvalue="Python tests.Python tests for test_api_shares.test_api_shares_report_aggregated_analyse" />
         <item itemvalue="Python tests.Python tests for test_api_shares.test_api_shares_watch_list_tickers" />
-        <item itemvalue="Python tests.Python tests for api_bonds_watch_list_tickers.test_api_bonds_watch_list_tickers" />
       </list>
     </recent_temporary>
   </component>
@@ -186,16 +185,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/api_tests.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
