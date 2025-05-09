@@ -14,17 +14,8 @@ def api_list_tickers(url):
     assert len(result) > 0
 
 
-def api_report_datarange_tickerlist(url, tickerList):
+def api_report(url, body):
     # arrange
-    toDate = datetime.now()
-    fromDate = toDate - timedelta(days=7)
-
-    body = {
-        "from": fromDate.strftime('%Y-%m-%d'),
-        "to": toDate.strftime('%Y-%m-%d'),
-        "tickerList": tickerList
-    }
-
     # act
     response = requests.post(url, json=body)
     response_json = response.json()
@@ -41,39 +32,8 @@ def api_report_datarange_tickerlist(url, tickerList):
     assert len(data) > 0
 
 
-def api_report_tickerlist(url, tickerList):
+def api_diagram_simple(url, body):
     # arrange
-    body = {
-        "tickerList": tickerList
-    }
-
-    # act
-    response = requests.post(url, json=body)
-    response_json = response.json()
-    result = response_json["result"]
-
-    title = result["title"]
-    header = result["header"]
-    data = result["data"]
-
-    # assert
-    assert response.status_code == 200
-    assert len(title) > 0
-    assert len(header) > 0
-    assert len(data) > 0
-
-
-def api_diagram_simple(url, tickerList):
-    # arrange
-    toDate = datetime.now()
-    fromDate = toDate - timedelta(days=7)
-
-    body = {
-        "from": fromDate.strftime('%Y-%m-%d'),
-        "to": toDate.strftime('%Y-%m-%d'),
-        "tickerList": tickerList
-    }
-
     # act
     response = requests.post(url, json=body)
     response_json = response.json()
@@ -88,12 +48,8 @@ def api_diagram_simple(url, tickerList):
     assert len(data) > 0
 
 
-def api_diagram_bubble(url, tickerList):
+def api_diagram_bubble(url, body):
     # arrange
-    body = {
-        "tickerList": tickerList
-    }
-
     # act
     response = requests.post(url, json=body)
     response_json = response.json()
