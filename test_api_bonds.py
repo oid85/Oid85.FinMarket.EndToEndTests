@@ -49,8 +49,9 @@ def test_api_bonds_report_coupon_analyse():
         { "tickerList": 'bonds/watchlist' })        
         
         
-def test_api_bonds_watch_list_tickers():
-    api_list_tickers(f'{config.api_url}/api/bonds/report/bond-selection')        
+def test_api_bonds_bond_selection():
+    api_list_tickers(f'{config.api_url}/api/bonds/report/bond-selection',
+        {})        
     
     
 def test_api_bonds_report_active_market_events_analyse():
